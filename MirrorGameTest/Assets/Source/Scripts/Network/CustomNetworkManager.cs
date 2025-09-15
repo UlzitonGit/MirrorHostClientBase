@@ -3,7 +3,7 @@ using UnityEngine;
 using Mirror;
 using UnityEngine.SceneManagement;
 using Steamworks;
-
+    
 public class CustomNetworkManager : NetworkManager
 {
     public List<PlayerNetworkController> Players { get; private set; } = new List<PlayerNetworkController>();
